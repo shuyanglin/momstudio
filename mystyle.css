@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+
+body{	
+	font-family: Raleway;
+
+	font-size: 20px;
+	color: #585858;
+}
+
+div{
+	padding: 1rem 1rem;
+}
+
+header{
+	padding: 4rem 1rem 0.1rem 1rem;
+	background-color: #eee;
+}
+
+p{
+	color: #999;
+}
+
+section{
+	padding: 1rem 1rem 0.1rem 1rem;
+}
+
+
+h1{
+	font-size: 2.5 rem;
+}
+
+h2{
+	font-size: 40 px;
+}
+
+h3{
+	font-size: 25 px;
+}
+
+p{
+	font-size: 1.5 rem;
+}
+
+img{
+	max-width: 100%;
+}
+
+.register{
+	background-color: #eee;
+}
+
+.copyright{
+	background-color: #333;
+	text-align: center;
+	padding: 2rem;
+	color: #ddd;
+	
+}
+/* responsive */
+
+@media screen and (min-width: 375px){
+	header{
+		/*color: red;*/
+		padding: 4rem 1rem 0.1rem 2rem;
+	}
+
+	h1{
+		font-size: 2.5rem;
+	}
+
+	p{
+		font-size: 1rem;
+	}
+
+}
+
+@media screen and (min-width: 576px){
+	section, header{
+		/*color: red;*/
+		padding: 4rem 1rem 0.1rem 3rem;
+	}
+
+	h1{
+		font-size: 2.5rem;
+	}
+
+	p{
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px){
+	section, header{
+		/*max-width: 720px;*/
+		/*color: yellow;*/
+		padding: 4rem 1rem 0.1rem 4rem;
+	}
+}
+
+@media screen and (min-width: 992px){
+	section, header{
+		/*max-width: 960px;*/
+		/*color: blue;*/
+		padding: 4rem 1rem 0.1rem 5rem;
+	}
+
+
+@media screen and (min-width: 1200px){
+	section, header{
+		/*max-width: 1140;*/
+		/*color: purple;*/
+		padding: 4rem 1rem 0.1rem 6rem;
+	}
+}
